@@ -57,6 +57,7 @@ class WG_Automatic_Link_Title
 		{
 			$title = preg_replace( '/\s+/', ' ', $result[1] );
 			$title = trim( $title );
+			$title = html_entity_decode( $title, ENT_QUOTES, 'UTF-8' );
 			$return = array(
 				'status' => 'success',
 				'title'	 => $title,
@@ -70,7 +71,7 @@ class WG_Automatic_Link_Title
 			);
 		}
 		
-		header("Content-type: application-x/json; charset=utf-8");
+		header( "Content-type: application-x/json; charset=utf-8" );
 		echo json_encode( $return );
 		exit();		
 	}
