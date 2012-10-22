@@ -3,7 +3,7 @@
  * Plugin Name: Automatic Link Title
  * Version:		0.0.1
  * Plugin URI:	http://www.webbgaraget.se
- * Description: Tries to automatically download the <title>-tag content from the URL specified when adding a new link
+ * Description: Tries to automatically download the &lt;title&gt;-tag content from the URL specified when adding a new link
  * Author:		Anders Lisspers, Webbgaraget
  * Author URI:	http://www.webbgaraget.se
  */

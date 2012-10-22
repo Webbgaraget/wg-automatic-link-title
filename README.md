@@ -1,4 +1,5 @@
 wg-automatic-link-title
 =======================
 
-WordPress plugin making it easy to add a title attribute to links you add in your post or page content
+WordPress plugin that helps you add a title to the links you add with the WYSIWYG editor. It does so by
+automatically downloading the content of the `<title>`-tag of the URL you specify.
